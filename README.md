@@ -16,4 +16,4 @@ docker build -t neural_search .
 docker-compose -f docker-compose-local.yaml up
 ```
 
-After a successful upload, neural search API will be available at [http://localhost:8000/docs](http://localhost:8000/docs) 
+After a successful launch, neural search API will be available at [http://localhost:8000/docs](http://localhost:8000/docs) 
