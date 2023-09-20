@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Zzzzz!</title>
+  </head>
+  <body>
+    <h1>Activity history neural search!👋</h1>
+
+    <div>
+      <input type="file" id="file-input">
+    </div>
+    <div id="parsed-content"></div>
+
+    <div>
+      <input type="text" id="search-input" placeholder="Enter search term">
+      <button id="fetch-button">Search</button>
+    </div>
+    <div id="data-container"></div>
+    
+  </body>
+  <script src="./renderer.js"></script>
+</html>
